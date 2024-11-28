@@ -1,0 +1,191 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.navbar-hover .nav-link:hover {
+  background-color: #e7f0e9; /* Change this to your desired hover color */
+  color: rgb(8, 8, 8); /* Change text color if necessary */
+  border-radius: 10px;
+  
+}
+.text-pink{
+  color: rgb(12, 1, 6);
+  font-family:'Times New Roman', Times, serif;
+}
+.navbgcolor{
+ /* background:radial-gradient(#fff,#1b3c5a); */
+ background:radial-gradient(#fff,#2116e8);
+ 
+}
+
+.heading1{
+  padding-top: 100px;
+  color: red;
+  font-size:medium;
+  font-family:'Times New Roman', Times, serif;
+}
+.heading2{
+  
+ 
+  color: red;
+ font-size:xx-large;
+  font-family:'Times New Roman', Times, serif;
+  
+
+}
+.heading3{
+  
+ 
+
+  font-family:'Times New Roman', Times, serif;
+}
+.heading6{
+  padding-top: 0px;
+}
+.img1{
+  
+  height: 435px;
+}
+.loginPage {
+  /* //background: url('employeems.jpeg');
+  background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/employeems.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 120%; */
+  
+  background:url(empsbg.png) ;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+
+}
+
+
+.loginForm {
+  /* background-color: rgba(1, 32, 93, 0.6); */
+  color: rgb(8, 8, 8);
+/* 
+  box-shadow: 0 4px 8px rgba(17, 17, 17, 0.1); */
+
+   
+  }
+ 
+
+ul li :hover {
+  background-color: gray;
+}
+/* selction -dashboard */
+.full-height-section {
+  height: 100vh;  /* 100% of the viewport height */
+  background-color: #f9ffff;  /* Just for visibility */
+  display: flex;
+
+}
+.charts {
+  min-height: 400px;
+  background-color: lightgrey;
+}
+.chart-container {
+  height: 350px;
+}
+
+@media (max-width: 767px) {
+  .chart-container {
+    height: 250px;  /* Smaller height on mobile */
+  }
+}
+
+.fontsize{
+  font-family:'Montserrat', sans-serif;
+  ;
+}
+.fontsize1{
+  font-family: 'Lora', serif;
+
+
+}
+
+/* LeaveForm.css */
+
+.leave-form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.leave-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .leave-form-container {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
